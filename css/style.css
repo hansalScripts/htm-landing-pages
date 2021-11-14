@@ -1,0 +1,294 @@
+/*
+default sizes , these will removed
+*/
+/* global Style */
+html,
+body {
+  letter-spacing: 1.5px;
+  color: #4f4f4f;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Fira Sans Extra Condensed", sans-serif;
+  font-weight: 700;
+  color: #d7a76d;
+}
+p {
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+}
+
+section {
+  margin: 100px 0 100px 0;
+  text-align: center;
+  padding: 25px 0 25px 0;
+}
+
+/* header sections */
+nav.navbar {
+  background-color: inherit !important;
+  z-index: 1;
+  position: relative;
+}
+
+nav ul li a {
+  font-size: 17px;
+  text-transform: uppercase;
+  padding: 20px;
+  color: #6b6357 !important;
+  font-weight: 600;
+  letter-spacing: 1.2px;
+  transition: color 0.5s ease-in-out;
+  padding-left: 25px !important;
+}
+
+nav ul li a:hover {
+  color: #1a1715 !important;
+}
+
+/* hero div */
+header {
+  position: relative;
+}
+
+#hero {
+  height: 550px;
+  background-image: url("../img/header-main.png");
+  background-size: 100% 100%;
+  position: relative;
+  padding-top: 35px;
+}
+
+#hero h3,
+#call_to_action h3 span {
+  font-size: 92px;
+  padding-top: 22px;
+  text-shadow: rgba(255, 255, 255, 0.5) 0px 1px 2px,
+    rgba(255, 255, 255, 0.75) 1px 6px 3px;
+  font-weight: 900;
+  transform: rotateX(30deg);
+}
+
+#hero img.bottom-shape {
+  position: absolute;
+  bottom: -72px;
+  height: 100px;
+}
+
+#hero img.top-shape {
+  position: absolute;
+  top: -64px;
+  height: 136px;
+  z-index: 0;
+}
+
+.hero-footer button {
+  font-size: 19px;
+  font-weight: 600;
+  margin: 25px 0 15px 0;
+  background: #fff;
+  color: #4f4f4f;
+  padding: 4px 36px;
+}
+
+.hero-footer button:hover {
+  background: #d7a76d;
+}
+
+.hero-footer p {
+  font-style: italic;
+  font-size: 20px;
+}
+
+/* features section */
+#features h3 {
+  font-size: 35px;
+  color: #d7a76d;
+  padding: 15px 0 15px 0;
+}
+
+#features .box {
+  background: #86786e;
+  color: #ffffff;
+  text-align: left;
+  min-height: 350px;
+}
+
+#features .box img {
+  width: 100%;
+  margin: 0px 0 33px;
+  background: #ffffff;
+}
+
+#features .box-content {
+  padding: 12px;
+  text-indent: 15px;
+}
+
+#features button.read-more {
+  background: #86786e;
+  margin: 31px;
+  font-size: 25px;
+  color: #ffffff;
+  font-weight: 600;
+  padding: 2px 35px;
+}
+
+#features button.read-more:hover {
+  background-color: #d7a76d;
+}
+
+/* About section */
+section#about {
+  background: #86786e;
+  padding: 0;
+}
+#about .row {
+  --mdb-gutter-x: 0;
+}
+
+section#about img {
+  height: 400px;
+}
+
+section#about h1 {
+  margin-top: 100px;
+  color: #ffffff;
+  font-size: 65px;
+}
+
+/* call to action  */
+section#call_to_action {
+  background-image: url("../img/header-main-flip.png");
+  background-size: 100% 100%;
+  position: relative;
+  height: 500px;
+}
+
+section#call_to_action img,
+section#newsLetter img {
+  position: absolute;
+  z-index: 1;
+  height: 50px;
+  left: 0;
+  width: 100%;
+}
+
+img.top {
+  top: 0px;
+}
+
+img.bottom {
+  bottom: -11px;
+}
+
+section#call_to_action h3 {
+  text-transform: uppercase;
+  margin-top: 154px;
+}
+
+/*review */
+section#clints_review {
+  height: 320px;
+  margin: 0;
+  border-bottom: 1px solid;
+  box-shadow: rgb(0 0 0 / 35%) 1px 1px 6px;
+}
+
+.carousel-inner {
+  height: 300px;
+}
+.carousel-caption {
+  top: 0;
+  bottom: unset;
+  color: unset;
+  font-size: 25px;
+  font-weight: 600;
+}
+.carousel-control-next,
+.carousel-control-prev {
+  color: #000;
+}
+.carousel-indicators [data-mdb-target] {
+  background-color: #000;
+}
+
+/* news letter section */
+section#newsLetter {
+  background: #fcb571;
+  background-size: 100% 100%;
+  height: 500px;
+  position: relative;
+}
+
+#newsLetter h1 {
+  color: #fff;
+  margin-top: 87px;
+  font-size: 75px;
+  font-weight: 900;
+  transform: rotateX(52deg);
+  text-shadow: rgb(74 40 7) 0px 0px 3px;
+}
+
+.form-outline {
+  display: flex;
+}
+
+input#form1 {
+  border: 1px solid #fff;
+  border-radius: 25px;
+  width: 100%;
+  height: 42px;
+  background: none;
+  padding-left: 25px;
+}
+
+footer {
+    min-height: 500px;
+    background-image: url('../img/footer.png');
+    background-position: 100% 100%;
+    position: relative;
+    color: #ffffff;
+}
+
+footer a {
+    color: #ffffff;
+    text-transform: capitalize;
+    transition: color 0.5s ease-in-out;
+}
+
+footer a:hover {
+    color: #d5a76d;
+}
+
+footer i.social-icon {
+    padding: 10px;
+    font-size: 19px;
+    color: #282726;
+    background: #fff;
+    border-radius: 50%;
+    margin: 5px;
+    text-align: center;
+}
+
+/* responsive designs */
+/*small device*/
+@media only screen and (max-width: 420px) {
+  #hero h3 {
+    font-size: 40px;
+    padding: 0 5px;
+  }
+}
+
+/*medium  devive*/
+@media only screen and (max-width: 720px) {
+  #hero h3 {
+    font-size: 50px;
+    padding: 0 5px;
+  }
+}
