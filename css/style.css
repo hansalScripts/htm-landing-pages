@@ -1,9 +1,10 @@
 /*
 default sizes , these will removed
 */
-/* global Style */
+/* global Style rules*/
 html,
 body {
+  scroll-behavior: smooth;
   letter-spacing: 1.5px;
   color: #4f4f4f;
 }
@@ -27,6 +28,19 @@ section {
   margin: 100px 0 100px 0;
   text-align: center;
   padding: 25px 0 25px 0;
+}
+/* loader Preloader */
+#loader {
+  background: #fff;
+  height: 100%;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  z-index: 99999;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
 }
 
 /* header sections */
